@@ -1,0 +1,7 @@
+version: '2'
+services:
+  jbuild_rpm:
+    image: amazoncorretto:17
+    volumes:
+    - ../../:/app
+    command: /bin/sh -c bash

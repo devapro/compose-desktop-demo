@@ -1,0 +1,7 @@
+version: '2'
+services:
+  jbuild_deb_amd:
+    build: .
+    volumes:
+    - ../../:/app
+    command: /bin/sh -c bash
